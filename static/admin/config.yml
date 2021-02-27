@@ -68,7 +68,8 @@ collections:
   - name: 'testimonials' 
     label: 'Testimonials' 
     folder: 'app/content/testimonials' 
-    create: true slug: '{{slug}}_{{date}}' 
+    create: true 
+    slug: '{{slug}}_{{date}}' 
     format: 'json' 
     sort: 'published_at:desc' 
     identifier_field: 'name' 
