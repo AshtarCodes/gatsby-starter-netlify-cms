@@ -76,5 +76,5 @@ collections:
     fields: 
       - { label: 'Name', name: 'name', widget: 'string' } 
       - { label: 'Date', name: 'date', widget: 'datetime', date_format: true, time_format: false, format: "Do MMMM YYYY", picker_utc: true } 
-      - {label: 'Testimonials', name: 'testimonial', widget: 'text} 
-      - {label: 'Homepage', name: 'homepage', widget: 'boolean', default: false}
+      - { label: 'Testimonials', name: 'testimonial', widget: 'text'} 
+      - { label: 'Homepage', name: 'homepage', widget: 'boolean', default: false }
